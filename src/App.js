@@ -5,7 +5,7 @@ import Cropper from 'react-cropper';
 import download from 'downloadjs'
 import printJS from 'print-js'  
 
-const src = '1600x1400.png';
+const src = '750x90.png';
 
 export default class App extends Component {
 
@@ -87,7 +87,7 @@ export default class App extends Component {
           { !this.state.error ?
           <Cropper
             style={{ height: '300px', width: '50%' }}
-            viewMode={3}
+            viewMode={1}
             highlight={true}
             background={false}
             preview=".img-preview"
