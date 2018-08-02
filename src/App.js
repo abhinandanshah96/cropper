@@ -61,8 +61,6 @@ export default class App extends Component {
           maxWidth: 800,
           maxHeight: 100,
           fillColor: '#f9f9f9',
-          imageSmoothingEnabled: false,
-          imageSmoothingQuality: 'high',
       }).toDataURL(),
     });
   }
